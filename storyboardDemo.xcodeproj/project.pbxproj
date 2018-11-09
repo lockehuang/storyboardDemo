@@ -18,6 +18,7 @@
 		18F382F318657AAD003FA280 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F382F218657AAD003FA280 /* Default-568h@2x.png */; };
 		18F382F618657AAD003FA280 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F382F418657AAD003FA280 /* MainStoryboard.storyboard */; };
 		18F382F918657AAD003FA280 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F382F818657AAD003FA280 /* ViewController.m */; };
+		4515ED6A21958CEA0023FD31 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4515ED6921958CEA0023FD31 /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		18F382F518657AAD003FA280 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		18F382F718657AAD003FA280 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		18F382F818657AAD003FA280 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4515ED6821958CEA0023FD31 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		4515ED6921958CEA0023FD31 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				18F382F718657AAD003FA280 /* ViewController.h */,
 				18F382F818657AAD003FA280 /* ViewController.m */,
 				18F382E318657AAC003FA280 /* Supporting Files */,
+				4515ED6821958CEA0023FD31 /* TestViewController.h */,
+				4515ED6921958CEA0023FD31 /* TestViewController.m */,
 			);
 			path = storyboardDemo;
 			sourceTree = "<group>";
@@ -175,6 +180,7 @@
 			files = (
 				18F382E918657AAC003FA280 /* main.m in Sources */,
 				18F382ED18657AAD003FA280 /* AppDelegate.m in Sources */,
+				4515ED6A21958CEA0023FD31 /* TestViewController.m in Sources */,
 				18F382F918657AAD003FA280 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +304,7 @@
 				18F382FE18657AAD003FA280 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
