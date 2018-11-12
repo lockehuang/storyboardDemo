@@ -16,8 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    //lockehuang
+
     self.view.backgroundColor = [UIColor yellowColor];
 }
 
